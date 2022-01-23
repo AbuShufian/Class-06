@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{text-decoration: none;}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+/********************************
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*********************************/
+header{
+	width: 100%;
+	padding: 1rem 0;
+	position: absolute;
+}
+.containar{
+	width: 1140px;
+	margin: 0 auto;
+}
+.header-item{
+	display: flex;
+	justify-content: space-between;
+}
+.contant{
+	text-align: right;
+}
+.top-contant span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3d2514;
+}
+.top-contant img{
+	vertical-align: middle; margin-right: 1rem;
+}
+.navbar ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 2rem;
+	letter-spacing: 3px;
+}
+.navbar ul li a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+
+}
+.top-contant{
+	margin-bottom: 1rem;
+}
+#banner{
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner-contant{
+	display: flex;
+}
+.banner-right{
+	padding-top: 2rem;
+}
+.banner-left{
+	flex-basis: 50%;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+}
+.banner-left p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	font-weight: 300;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+	padding: 2px 8px;
+	color: #3d2514;
+	text-transform: uppercase;
+
+}
+.banner-left h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	font-weight: 700;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 4px 4px rgb(255 255 255 / 70%);
+}
+.banner-left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	font-weight: 700;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 4px 4px rgb(255 255 255 / 70%);
+}
+/* -------burger section start--------- */
+#burger{
+	width: 100%;
+	padding: 100px 0px;
+}
+.burger_main{
+	display: flex;
+}
+.burger_left{
+	flex-basis: 50%;
+	margin-right: 20px;
+}
+.burger_right{
+	flex-basis: 50%;
+	margin-left: 20px;
+}
+.burger_left,.burger_right_top,.burger_right_bottom{
+	position: relative;
+}
+.burger_right_top{
+   margin-bottom: 20px;
+}
+.burger_right_bottom{
+   margin-top: 30px;
+}
+.burger_overlay{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+.burger_overlay h6{
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 600;
+	margin-bottom: -9px;
+}
+.m-2 h4 {
+   line-height: 42px;
+   margin-top: 12px;
+}
+.burger_overlay h4{
+   color: #fff;
+   font-size: 42px;
+   font-family: 'Bebas Neue', cursive;
+   font-weight: 600;
+}
+/* -------burger section end--------- */
+
+/* --------enjoy section start------- */
+#enjoy{
+	width: 100%;
+	padding: 40px 0px;
+}
+.enjoy_header{
+	text-align: center;
+}
+.enjoy_header span{
+	color: #3d2514;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	background-color: #ffc045;
+	display: inline-block;
+	padding: 10px 25px;
+	margin-bottom: 20px;
+}
+.enjoy_header h3{
+	color: #3d2514;
+	font-size: 50px;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.enjoy_header p {
+   font-size: 17px;
+   color: #3d2514;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   width: 1061px;
+   margin: auto;
+   margin-bottom: 80px;
+   line-height: 28px;
+}
+.img-fluide{
+	max-width: 80%;
+}
+.enjoy_main{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+}
+.enjoy_item h3{
+	color: #3d2514;
+	font-size: 38px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.enjoy_item p {
+   color: #3d2514;
+   font-size: 17px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   margin: 10px 20px;
+}
+.enjoy_item a{
+   font-size: 17px;
+   color: #fff;
+   font-weight: 400;
+   font-family: 'Alfa Slab One', cursive;
+   display: inline-block;
+   background-color: #bf2121;
+   padding: 12px 25px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-top: 20px;
+}
+/* --------enjoy section end------- */
